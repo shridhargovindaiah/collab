@@ -68,7 +68,7 @@ body {
 .logoImage {
   aspect-ratio: 3/2;
   object-fit: contain;
-  mix-blend-mode: darken;
+  mix-blend-mode: color-burn;
 }
 
 .bgImage {
@@ -105,22 +105,18 @@ section {
 .task-1-footer {
   padding-left: 10px;
   display: grid;
-  grid-template-columns: repeat(12, 1fr);
+  grid-template-columns: auto 100px 100px 100px;
   gap: 10px;
   align-items: center;
 }
 
-.task-1-photos {
-  width: 50px;
+.task-1-photos {  
   aspect-ratio: 3/2;
   object-fit: contain;
-
-  grid-column: 1 / span 1;
+  /* mix-blend-mode: color-burn; */
+  /* grid-column: 1 / span 1; */
 }
 
-.author {
-  grid-column: 5 / span 12;
-}
 
 /* Task 2 */
 
